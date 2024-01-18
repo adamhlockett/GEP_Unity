@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f6084b23680adc14aa6578c8d024be90
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - inventoryPrefab: {instanceID: 0}
+  - inventory: {fileID: 11400000, guid: b56d918c69f30a641994c5c1c69a4a1f, type: 2}
+  - player: {fileID: 7225226454402747168, guid: 4df9a87682b4e6647adb52038cc94cab,
+      type: 3}
+  - apple: {fileID: 7676610875164037889, guid: f80135f6347486441b5cfc8ebed2f214, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

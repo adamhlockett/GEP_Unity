@@ -1,0 +1,51 @@
+{
+    "name": "InventoryActions",
+    "maps": [
+        {
+            "name": "Inventory",
+            "id": "45a0de0c-99b2-43c6-90f9-51f08b7bcb0f",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "45f8b1fc-5584-4fc2-a04e-29efac48f0d7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b5c45b25-d2e1-4a57-a8a8-65ebf0e8ef34",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KeyboardMouse",
+            "bindingGroup": "KeyboardMouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
